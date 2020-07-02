@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Game of Life</title>
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+</head>
+<body onload="app.startGame()">
+    <h1>Game of Life</h1>
+    <canvas id="board" width="1000" height="650"></canvas>
+    <script src="./app.js"></script>
+    <br/>
+    <button class="btn" onclick="app.reset();app.init();">Reset</button>
+</body>

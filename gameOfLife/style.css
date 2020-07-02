@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+#board{
+    background-color: rgb(0, 0, 0);19:14 02.07.2020
+}
+canvas{
+    border: 2px solid darkgreen;
+}
+
+h1{
+    text-shadow:1px 1px 15px darkgreen;;
+}
+
+.btn{
+    font-size: 25px;
+    display: inline-block; 
+    background: darkgreen;
+    color: white;
+    margin: 10px;
+    padding: 5px 15px;
+}
+
